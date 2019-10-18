@@ -1,0 +1,25 @@
+{
+  "name": "Lexico: Dictionary & Thesaurus offers trusted English definitions.",
+  "short_name": "Lexico",
+  "author": "Claudia Valdivieso",
+  "description": "Write 'lexico' followed by the word to search, then press enter.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword": "lexico" },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "16": "lexico16.png",
+      "32": "lexico32.png"
+    }
+  },
+  "icons": {
+    "16": "lexico16.png",
+    "32": "lexico32.png",
+    "48": "lexico48.png",
+    "128": "lexico128.png"
+  }
+}
