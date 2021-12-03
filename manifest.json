@@ -3,14 +3,13 @@
   "short_name": "Lexico",
   "author": "Claudia Valdivieso",
   "description": "Write 'lexico' followed by the word to search, then press enter.",
-  "version": "1.0",
+  "version": "1.1",
+  "manifest_version": 3,
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "omnibox": { "keyword": "lexico" },
-  "manifest_version": 2,
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "lexico16.png",
       "32": "lexico32.png"
